@@ -1,0 +1,28 @@
+{
+  "name": "graphqltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woosungkim0123/graphQLPractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woosungkim0123/graphQLPractice/issues"
+  },
+  "homepage": "https://github.com/woosungkim0123/graphQLPractice#readme",
+  "dependencies": {
+    "@graphql-yoga/node": "^2.3.0",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
